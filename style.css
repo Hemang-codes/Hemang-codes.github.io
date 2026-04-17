@@ -50,7 +50,6 @@ header ul li a:hover {
 
 .profile {
     margin-left: auto; 
-    margin-top: 20px;
     width: 400px;
     height: 100%;
     background-color: rgb(127, 127, 144);
@@ -68,7 +67,7 @@ header ul li a:hover {
     height: 150px;
     border-radius: 50%;
     border: 4px solid white;
-    margin: 20px;
+    margin: 30px;
     object-fit: cover;
 }
 
@@ -115,6 +114,13 @@ button:hover {
     transform: scale(1.05);
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
 .text-box {
     display: flex;
     flex-direction: column;
@@ -159,8 +165,9 @@ button:hover {
 }
 
 section {
-    padding: 60px 10rem;
+    width: 80%;
     font-size: 20px;
+    padding: 20px;
 }
 
 section h2 {
@@ -176,22 +183,23 @@ section p {
 #about {
     background-color: #f9f9f9;
 }
+
 #education {
     border-right: 1px solid rgba(127, 127, 127, 0.5);
 }
+
 #education b{
     font-size: 18px;
     color: #333;
     margin-bottom: 10px;
 }
-#skills {
-    background-color: #f9f9f9;
-}
+
 #projects a {
     color: #6169e1;
     text-decoration: none;
     transition: 0.3s;
 }
+
 footer {
     background-color: rgb(127, 127, 144);
     color: white;
